@@ -16,8 +16,8 @@ def zipper(listA, listB):
 
 if __name__ == '__main__': # run directly the function
     
-    food = ['pizza', 'sushi', 'jam']
-    people = ['Bob', 'Kevin', 'Angela']
+    food = ['pizza', 'sushi', 'jam', 'pho', 'tofu']
+    people = ['Bob', 'Kevin', 'Angela', 'Meredith', 'Michael']
     
     result = zipper(food, people)
     for item in result:
